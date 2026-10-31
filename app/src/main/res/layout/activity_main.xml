@@ -10,6 +10,9 @@
     android:paddingTop="@dimen/margin_16">
 
     <!-- Заголовок приложения -->
+
+    <!-- Контейнер для кнопок с отступом сверху -->
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -18,7 +21,6 @@
         android:textSize="@dimen/text_size_23"
         android:textStyle="bold" />
 
-    <!-- Контейнер для кнопок с отступом сверху -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -26,15 +28,18 @@
         android:orientation="vertical">
 
         <!-- Первая кнопка: Поиск -->
+
+        <!-- Вторая кнопка: Медиатека -->
+
         <com.google.android.material.button.MaterialButton
             android:id="@+id/button_search"
             android:layout_width="match_parent"
             android:layout_height="@dimen/button_height_220"
             android:text="@string/menu_search"
+            android:textAllCaps="false"
             android:textColor="@color/background_dark"
             android:textSize="@dimen/text_size_23"
             android:textStyle="bold"
-            android:textAllCaps="false"
             app:backgroundTint="@color/white"
             app:cornerRadius="16dp"
             app:icon="@drawable/inactive"
@@ -42,17 +47,16 @@
             app:iconPadding="12dp"
             app:iconTint="@color/background_dark" />
 
-        <!-- Вторая кнопка: Медиатека -->
         <com.google.android.material.button.MaterialButton
             android:id="@+id/button_media"
             android:layout_width="match_parent"
             android:layout_height="@dimen/button_height_220"
             android:layout_marginTop="@dimen/margin_16"
             android:text="@string/menu_media"
+            android:textAllCaps="false"
             android:textColor="@color/background_dark"
             android:textSize="@dimen/text_size_23"
             android:textStyle="bold"
-            android:textAllCaps="false"
             app:backgroundTint="@color/white"
             app:cornerRadius="16dp"
             app:icon="@drawable/search"
@@ -67,10 +71,10 @@
             android:layout_height="@dimen/button_height_220"
             android:layout_marginTop="@dimen/margin_16"
             android:text="@string/menu_settings"
+            android:textAllCaps="false"
             android:textColor="@color/background_dark"
             android:textSize="@dimen/text_size_23"
             android:textStyle="bold"
-            android:textAllCaps="false"
             app:backgroundTint="@color/white"
             app:cornerRadius="16dp"
             app:icon="@drawable/settings"
