@@ -1,26 +1,21 @@
-<?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white"
-    android:orientation="vertical"
-    android:visibility="visible"
-    tools:visibility="visible">
+    android:orientation="vertical">
 
     <!-- Шапка экрана -->
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="@dimen/header_height_56"
+        android:layout_height="@dimen/settings_header_height"
         android:gravity="center_vertical"
-        android:paddingHorizontal="@dimen/margin_16">
+        android:paddingHorizontal="@dimen/padding_horizontal">
 
-        <!-- Иконка "Назад" -->
         <ImageView
             android:id="@+id/button_back"
-            android:layout_width="@dimen/icon_size_24"
-            android:layout_height="@dimen/icon_size_24"
-            android:layout_marginEnd="@dimen/margin_16"
+            android:layout_width="@dimen/icon_size"
+            android:layout_height="@dimen/icon_size"
+            android:layout_marginEnd="@dimen/margin_standard"
             android:src="@drawable/arrow_back"
             android:background="?attr/selectableItemBackgroundBorderless"
             android:contentDescription="@string/back_button" />
@@ -28,24 +23,24 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
             android:text="@string/settings_title"
             android:textColor="@color/background_dark"
-            android:textSize="@dimen/text_size_23"
-            android:textStyle="bold" />
+            android:textSize="@dimen/header_text_size" />
     </LinearLayout>
 
     <!-- Контейнер для списка настроек -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/margin_top_24"
+        android:layout_marginTop="@dimen/margin_top_medium"
         android:orientation="vertical"
-        android:paddingHorizontal="@dimen/margin_16">
+        android:paddingHorizontal="@dimen/padding_horizontal">
 
-        <!-- Строка 1: Темная тема (Switch) -->
+        <!-- Строка 1: Темная тема -->
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="@dimen/list_item_height_61"
+            android:layout_height="@dimen/list_item_height"
             android:gravity="center_vertical"
             android:orientation="horizontal">
 
@@ -55,7 +50,7 @@
                 android:layout_weight="1"
                 android:text="@string/settings_dark_theme"
                 android:textColor="@color/background_dark"
-                android:textSize="@dimen/text_size_16" />
+                android:textSize="@dimen/text_size_body" />
 
             <com.google.android.material.switchmaterial.SwitchMaterial
                 android:id="@+id/switch_theme"
@@ -66,7 +61,7 @@
         <!-- Строка 2: Поделиться приложением -->
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="@dimen/list_item_height_61"
+            android:layout_height="@dimen/list_item_height"
             android:gravity="center_vertical"
             android:orientation="horizontal">
 
@@ -76,11 +71,11 @@
                 android:layout_weight="1"
                 android:text="@string/settings_share_app"
                 android:textColor="@color/background_dark"
-                android:textSize="@dimen/text_size_16" />
+                android:textSize="@dimen/text_size_body" />
 
             <ImageView
-                android:layout_width="@dimen/icon_size_24"
-                android:layout_height="@dimen/icon_size_24"
+                android:layout_width="@dimen/icon_size"
+                android:layout_height="@dimen/icon_size"
                 android:contentDescription="@string/settings_share_app"
                 android:src="@drawable/share" />
         </LinearLayout>
@@ -88,7 +83,7 @@
         <!-- Строка 3: Написать в поддержку -->
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="@dimen/list_item_height_61"
+            android:layout_height="@dimen/list_item_height"
             android:gravity="center_vertical"
             android:orientation="horizontal">
 
@@ -98,11 +93,11 @@
                 android:layout_weight="1"
                 android:text="@string/settings_write_support"
                 android:textColor="@color/background_dark"
-                android:textSize="@dimen/text_size_16" />
+                android:textSize="@dimen/text_size_body" />
 
             <ImageView
-                android:layout_width="@dimen/icon_size_24"
-                android:layout_height="@dimen/icon_size_24"
+                android:layout_width="@dimen/icon_size"
+                android:layout_height="@dimen/icon_size"
                 android:contentDescription="@string/settings_write_support"
                 android:src="@drawable/support" />
         </LinearLayout>
@@ -110,7 +105,7 @@
         <!-- Строка 4: Пользовательское соглашение -->
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="@dimen/list_item_height_61"
+            android:layout_height="@dimen/list_item_height"
             android:gravity="center_vertical"
             android:orientation="horizontal">
 
@@ -120,11 +115,11 @@
                 android:layout_weight="1"
                 android:text="@string/settings_user_agreement"
                 android:textColor="@color/background_dark"
-                android:textSize="@dimen/text_size_16" />
+                android:textSize="@dimen/text_size_body" />
 
             <ImageView
-                android:layout_width="@dimen/icon_size_24"
-                android:layout_height="@dimen/icon_size_24"
+                android:layout_width="@dimen/icon_size"
+                android:layout_height="@dimen/icon_size"
                 android:contentDescription="@string/settings_user_agreement"
                 android:src="@drawable/arrow_forward" />
         </LinearLayout>
