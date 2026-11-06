@@ -1,8 +1,11 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Базовая тема приложения -->
-    <style name="Theme.PlaylistMaker" parent="Theme.MaterialComponents.DayNight.NoActionBar">
-        <!-- Здесь можно задать глобальные цвета, например: -->
-        <!-- <item name="colorPrimary">@color/background_blue</item> -->
-        <!-- <item name="android:statusBarColor">@color/background_blue</item> -->
+<resources>
+    <style name="Theme.PlaylistMarket" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:fitsSystemWindows">true</item>
+        <item name="android:windowOptOutEdgeToEdgeEnforcement">true</item>
+    </style>
+
+    <style name="SettingsItemText">
+        <item name="android:textSize">@dimen/text_size_body</item>
+        <item name="android:textColor">@color/background_dark</item>
     </style>
 </resources>
