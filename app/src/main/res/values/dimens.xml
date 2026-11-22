@@ -19,4 +19,10 @@
     <!-- Иконки и скругления -->
     <dimen name="icon_padding">12dp</dimen>
     <dimen name="button_corner_radius">16dp</dimen>
+
+    <!-- Поле поиска -->
+    <dimen name="search_container_height">52dp</dimen>
+    <dimen name="search_field_height">36dp</dimen>
+    <dimen name="search_field_corner_radius">8dp</dimen>
+    <dimen name="search_icon_size">16dp</dimen>
 </resources>
