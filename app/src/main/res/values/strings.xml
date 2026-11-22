@@ -1,28 +1,3 @@
 <resources>
-    <string name="app_name">Playlist Market</string>
-
-    <!-- Тексты для кнопок главного экрана -->
-    <string name="menu_search">Поиск</string>
-    <string name="menu_media">Медиатека</string>
-    <string name="menu_settings">Настройки</string>
-
-    <!-- Экран настроек -->
-    <string name="settings_title">Настройки</string>
-    <string name="settings_dark_theme">Темная тема</string>
-    <string name="settings_share_app">Поделиться приложением</string>
-    <string name="settings_write_support">Написать в поддержку</string>
-    <string name="settings_user_agreement">Пользовательское соглашение</string>
-    <string name="back_button">Назад</string>
-
-    <!-- Экран настроек: действия -->
-    <string name="share_message">Посмотри какой курс по Android-разработке в Практикуме: https://practicum.yandex.ru/android-developer/</string>
-    <string name="support_email">mail@example.com</string>
-    <string name="support_email_subject">Сообщение разработчикам и разработчицам приложения Playlist Maker</string>
-    <string name="support_email_body">Спасибо разработчикам и разработчицам за крутое приложение!</string>
-    <string name="user_agreement_url">https://yandex.ru/legal/practicum_offer/</string>
-
-    <!-- Экран поиска -->
-    <string name="search_title">Поиск</string>
-    <string name="search_hint">Поиск</string>
-    <string name="search_clear_description">Очистить поисковый запрос</string>
+    <string name="app_name">Playlist Maker</string>
 </resources>
