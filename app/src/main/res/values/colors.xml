@@ -1,5 +1,15 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="background_dark">#1A1B22</color>
+
+    <!-- Семантические цвета: ночные значения — в values-night/colors.xml -->
+    <color name="background_main_screen">#3772E7</color>
+    <color name="background_settings_screen">#FFFFFFFF</color>
+    <color name="text_settings">#1A1B22</color>
+    <color name="icon_settings">#1A1B22</color>
+
+    <!-- Поле поиска: в обеих темах поле светлое, текст в нём тёмный -->
+    <color name="search_field_background">#E6E8EB</color>
+    <color name="search_field_hint">#AEAFB4</color>
+    <color name="search_field_text">#1A1B22</color>
 </resources>
